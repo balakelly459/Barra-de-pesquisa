@@ -31,7 +31,7 @@ if (
     if ($media > 6) {
         $class  = "aprovado";
         $texto = "Você está aprovado";
-    } elseif ($media > 4 && $media < 6) {
+    } elseif ($media >= 4 && $media <= 6) {
         $class  = "recuperacao";
         $texto = "Você está de recuperação";
     } elseif ($media < 4) {
